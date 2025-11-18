@@ -2,8 +2,9 @@
 
 int main() {
    float r,area;
+   const float pi=3.14;
     printf("enter a radius of circle\n");
-    scanf("%d",&r);
-    area=3.14*r*r;
-    printf("area of circle =%d\n",area);
+    scanf("%f",&r);
+    area=pi*r*r;
+    printf("area of circle =%f\n",area);
 }
