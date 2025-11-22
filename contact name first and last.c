@@ -9,9 +9,9 @@ int main(){
     }
     full[length]='\0';
     length++;
-    while(last[i] !='\0'){
-    full[length]=last[i];
-    i++;
+    while(last[j] !='\0'){
+    full[length]=last[j];
+    j++;
     length++;
     }
     full[length]='\0';
